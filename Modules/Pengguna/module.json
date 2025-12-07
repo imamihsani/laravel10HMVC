@@ -1,0 +1,12 @@
+{
+    "name": "Pengguna",
+    "alias": "pengguna",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pengguna\\App\\Providers\\PenggunaServiceProvider",
+        "Modules\\Pengguna\\App\\Providers\\AppServiceProvider"
+    ],
+    "files": []
+}

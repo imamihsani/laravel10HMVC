@@ -1,0 +1,14 @@
+{
+    "Shop": true,
+    "Superadmin": true,
+    "Profile": true,
+    "Auth": true,
+    "Peta": true,
+    "Pengguna": true,
+    "Admin": true,
+    "Task": true,
+    "Kelas": true,
+    "Murid": true,
+    "Qr": true,
+    "Mengajar": true
+}
