@@ -23,3 +23,10 @@ https://saweria.co/imamihsani_**
 
 <p align="center"><img align="center" width="100" height="150" alt="Image" src="https://github.com/user-attachments/assets/0d8468e9-dda6-4c20-8eb5-525230e6880d"/></p>
 
+Preview:<br>
+<img width="1365" height="601" alt="image" src="https://github.com/user-attachments/assets/b9cf4a5f-aef5-4418-94f8-d883db83017c" />
+<img width="1366" height="605" alt="image" src="https://github.com/user-attachments/assets/07cc32ee-0616-427a-9c73-1578ff62d1cb" />
+<img width="1366" height="613" alt="image" src="https://github.com/user-attachments/assets/7f4375a8-4340-4051-9acc-fe72bcd2be11" />
+<img width="1362" height="603" alt="image" src="https://github.com/user-attachments/assets/0b883ea0-2e4f-4025-ab89-d12ce66a78fc" />
+
+
