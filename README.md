@@ -6,13 +6,13 @@
 
 _dibuat oleh: imx_
 
-**Spesifikasi:**
--PHP version: 8.2.4
--Laravel version: 10
--Plugin utama: Admin LTE, Bootstrap 4, Nwidart, Datatable, Highchart.js, Font Awesome Icon 7, DOMPdf, Phpqrcode, Html5-qrcode, Phpspreadsheet, Autocomplete,  Select2, Jquery, Jquery UI, Leaflet.js, dan plugin lainnya.
--Support PWA (Installable as Progressive Web Apps)
--Authorization login
--Role and usergroup untuk hak akses permission
+**Spesifikasi:** <br>
+-PHP version: 8.2.4<br>
+-Laravel version: 10<br>
+-Plugin utama: Admin LTE, Bootstrap 4, Nwidart, Datatable, Highchart.js, Font Awesome Icon 7, DOMPdf, Phpqrcode, Html5-qrcode, Phpspreadsheet, Autocomplete,  Select2, Jquery, Jquery UI, Leaflet.js, dan plugin lainnya.<br>
+-Support PWA (Installable as Progressive Web Apps)<br>
+-Authorization login<br>
+-Role and usergroup untuk hak akses permission<br>
 
 **Konfigurasi PHP yang harus diincrease:**
 <img width="937" height="311" alt="Image" src="https://github.com/user-attachments/assets/633101b7-37b9-4bf9-b903-3433568cf6c9" />
