@@ -18,7 +18,9 @@ _dibuat oleh: imx_
 <img width="937" height="311" alt="Image" src="https://github.com/user-attachments/assets/633101b7-37b9-4bf9-b903-3433568cf6c9" />
 <img width="937" height="29" alt="Image" src="https://github.com/user-attachments/assets/e1b9a18b-8eab-45a1-baeb-00b6a193ace4" />
 
-jika pakai XAMPP extension=zip, extension=gd, extension=openssl harus aktif (hilangkan ; di depannya). Pastikan juga sudah install composer
+jika pakai XAMPP extension=zip, extension=gd, extension=openssl harus aktif (hilangkan ; di depannya). Pastikan juga sudah install composer dan sudah composer terupdate via CLI<br>
+Setelah itu setting .env, lalu jalankan php artisan key:generate --force untuk dapatkan key<br>
+
 
 **_Support saya buat beli kopi dong, makasih banyak:
 https://saweria.co/imamihsani_**
