@@ -20,6 +20,7 @@ _dibuat oleh: imx_
 
 jika pakai XAMPP extension=zip, extension=gd, extension=openssl harus aktif (hilangkan ; di depannya). Pastikan juga sudah install composer dan sudah composer terupdate via CLI<br>
 Setelah itu setting .env, lalu jalankan php artisan key:generate --force untuk dapatkan key<br>
+FYI: url role ada di superadmin/superadmin
 
 
 **_Support saya buat beli kopi dong, makasih banyak:
