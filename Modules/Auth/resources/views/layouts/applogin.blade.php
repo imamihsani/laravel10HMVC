@@ -32,8 +32,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> -->
 
-    <!-- Load assets dengan Vite -->
-    <!-- @vite(['resources/css/app.css', 'resources/js/app.js']) -->
+
     
     <!-- Atau gunakan asset() jika diperlukan -->
     <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
