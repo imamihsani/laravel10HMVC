@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <link rel="manifest" href="{{ asset('manifest.json') }}">
+  <!-- <link rel="manifest" href="{{ asset('manifest.json') }}"> -->
   <meta name="theme-color" content="#007bff">
   <link rel="apple-touch-icon" href="{{ asset('images/logo.png') }}">
   <link rel="icon" href="{{ asset('images/logo.png')}}">
@@ -304,13 +304,13 @@
         });
     </script>
     <script>
-      if ('serviceWorker' in navigator) {
-          window.addEventListener('load', () => {
-              navigator.serviceWorker.register('{{ asset('service-worker.js') }}')
-                  .then(reg => console.log('Service Worker didaftarkan', reg))
-                  .catch(err => console.error('Service Worker gagal', err));
-          });
-      }
+      // if ('serviceWorker' in navigator) {
+      //     window.addEventListener('load', () => {
+      //         navigator.serviceWorker.register('{{ asset('service-worker.js') }}')
+      //             .then(reg => console.log('Service Worker didaftarkan', reg))
+      //             .catch(err => console.error('Service Worker gagal', err));
+      //     });
+      // }
     </script>
 @endpush
 
