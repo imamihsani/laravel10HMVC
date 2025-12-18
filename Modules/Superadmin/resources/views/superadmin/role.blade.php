@@ -5,7 +5,12 @@
     .tooltip { 
         pointer-events: none;
     }
-    
+    .dataTables_length select {
+        pointer-events: none;
+    }
+    select[name="datatable_length"] {
+        pointer-events: none;
+    }   
 </style>
 @extends('superadmin::layouts.main')
 @section('content')
@@ -90,8 +95,11 @@
 
             var table = $('#datatable').DataTable({
                 responsive: false,
-                lengthMenu: [10, 15, 25, 50, 100],
-                pageLength: 50,
+                lengthMenu: [
+                    [10, 15, 25, 50, 100, -1],
+                    [10, 15, 25, 50, 100, "All"]
+                ],
+                pageLength: -1,
                 paging: true,
                 searching: true,
                 ordering: true,
