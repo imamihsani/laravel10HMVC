@@ -188,6 +188,87 @@
       margin-top:-7px !important;
     }
 
+    /* dark mode */
+    body.dark-mode {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+    body.dark-mode .row {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+    }
+    body.dark-mode .btn {
+        background-color: #1e1e1e;
+        color: #e0e0e0 !important;
+    }
+    body.dark-mode .nav-link {
+        color: #e0e0e0 !important;
+    }
+    body.dark-mode .card {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+    }
+    body.dark-mode .card .card-body {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+    }
+    body.dark-mode .table {
+        color: #e0e0e0;
+    }
+    body.dark-mode .btn-link {
+        color: #f1f1f1;
+    }
+    body.dark-mode .modal-content {
+        background-color: #1e1e1e;
+        color: #f1f1f1;
+    }
+    body.dark-mode .content-wrapper {
+        background-color: #1e1e1e;
+        color: #f1f1f1;
+    } 
+    body.dark-mode .modal-header {
+        background-color: #1e1e1e;
+        color: #f1f1f1;
+    } 
+    body.dark-mode .modal-footer {
+        background-color: #1e1e1e;
+        color: #f1f1f1;
+    }
+    body.dark-mode .dropdown-menu {
+        background-color: #1e1e1e;
+        color: #f1f1f1;
+        border-color:white;
+    }
+    body.dark-mode .dropdown-item {
+        background-color: #1e1e1e;
+        color: #f1f1f1 !important;
+    }
+    body.dark-mode .main-header {
+        background-color: #1e1e1e;
+        color: #f1f1f1 !important;
+    } 
+    body.dark-mode .main-footer {
+        background-color: #1e1e1e;
+        color: #f1f1f1 !important;
+    }
+    body.dark-mode .inputusername {
+        background-color: #212529 !important;
+        color: #f1f1f1 !important;
+    }
+    body.dark-mode .inputemail {
+        background-color: #212529 !important;
+        color: #f1f1f1 !important;
+    }  
+    body.dark-mode .inputidsekolah {
+        background-color: #212529 !important;
+        color: #f1f1f1 !important;
+    }
+    
+    svg{
+      padding: 1px !important;
+      background-color: white !important;
+    }
+
 
 
     
@@ -302,6 +383,78 @@
               wrapper.classList.add('loaded');
           }, 50); 
         });
+    </script>
+    <script>
+      function setMode(mode) {
+          if (mode === 'dark') {
+
+              // BODY
+              $('body')
+                  .addClass('dark-mode')
+                  .removeClass('bg-light text-dark')
+                  .addClass('bg-dark text-light');
+
+              // NAVBAR
+              $('.navbar')
+                  .removeClass('navbar-light bg-light')
+                  .addClass('navbar-dark bg-dark');
+
+              // TABLE
+              $('.table')
+                  .addClass('table-dark');
+
+              // CARD
+              $('.card')
+                  .removeClass('bg-light text-dark')
+                  .addClass('bg-dark text-light');
+
+              //MODAL
+              $('.modal-content, .modal-header, .modal-body, .modal-footer')
+                  .removeClass('bg-light text-dark')
+                  .addClass('bg-dark text-light');
+
+              $('.tombolmodescreen')
+                  .html('<i class="fa fa-sun"></i> Light Mode');
+
+              localStorage.setItem('mode', 'dark');
+
+          } else {
+
+              // BODY
+              $('body')
+                  .removeClass('dark-mode bg-dark text-light')
+                  .addClass('bg-light text-dark');
+
+              // NAVBAR
+              $('.navbar')
+                  .removeClass('navbar-dark bg-dark')
+                  .addClass('navbar-light bg-light');
+
+              // TABLE
+              $('.table')
+                  .removeClass('table-dark');
+
+              // CARD
+              $('.card')
+                  .removeClass('bg-dark text-light')
+
+              //MODAL
+              $('.modal-content, .modal-header, .modal-body, .modal-footer')
+                  .removeClass('bg-dark text-light')
+                  .addClass('bg-light text-dark');
+
+              $('.tombolmodescreen')
+                  .html('<i class="fa fa-moon"></i> Dark Mode');
+
+              localStorage.setItem('mode', 'light');
+          }
+      }
+      const savedMode = localStorage.getItem('mode') || 'light';
+      setMode(savedMode);
+      $('.tombolmodescreen').on('click', function () {
+          const isDark = $('body').hasClass('dark-mode');
+          setMode(isDark ? 'light' : 'dark');
+      });
     </script>
     <script>
       // if ('serviceWorker' in navigator) {
