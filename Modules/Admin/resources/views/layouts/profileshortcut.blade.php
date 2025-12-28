@@ -6,6 +6,7 @@
     </a>
     <div class="dropdown-menu p-0 m-0">
     <a class="btn btn-sm btn-link text-dark" type="button" href="{{ url('profile/profile') }}"><i class="fa fa-user"></i> Profile</a>
+    <button class="btn btn-sm btn-link tombolmodescreen" type="button"><i class="fa fa-moon"></i> Dark Mode</button>
     <form method="POST" class="p-0 m-0" action="{{ route('logout') }}">
         @csrf
         <button type="submit" class="btn btn-link btn-sm text-danger">
